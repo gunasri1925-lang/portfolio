@@ -1,0 +1,230 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Guna Sundari — Frontend Developer</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link href="https://fonts.googleapis.com/css2?family=Syne:wght@400;600;700;800&family=DM+Sans:ital,wght@0,300;0,400;0,500;1,300&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+  <!-- Custom Cursor -->
+  <div id="cursor"></div>
+  <div id="cursor-ring"></div>
+
+  <!-- ===================== NAVBAR ===================== -->
+  <nav id="navbar">
+    <a href="#home" class="logo">GS<span>.</span></a>
+    <ul class="nav-links">
+      <li><a href="#home">Home</a></li>
+      <li><a href="#about">About</a></li>
+      <li><a href="#projects">Projects</a></li>
+      <li><a href="#contact">Contact</a></li>
+    </ul>
+    <div class="menu-toggle" id="menuToggle" aria-label="Menu">
+      <span></span><span></span><span></span>
+    </div>
+  </nav>
+
+  <!-- Mobile Nav Drawer -->
+  <nav class="mobile-nav" id="mobileNav">
+    <a href="#home">Home</a>
+    <a href="#about">About</a>
+    <a href="#projects">Projects</a>
+    <a href="#contact">Contact</a>
+  </nav>
+
+  <!-- ===================== HERO ===================== -->
+  <section id="home" class="section">
+    <div class="orb orb-1"></div>
+    <div class="orb orb-2"></div>
+    <div class="orb orb-3"></div>
+
+    <p class="hero-eyebrow">Available for opportunities</p>
+
+    <h1 class="hero-title">
+      Hi, I'm <span class="highlight">Guna Sundari</span> <span class="wave">👋</span><br>
+      Frontend Developer
+    </h1>
+
+    <p class="hero-sub">
+      I create fast, beautiful, and user-centred web experiences with
+      <strong>HTML, CSS, JavaScript</strong> and <strong>React</strong> —
+      turning ideas into interfaces that feel alive.
+    </p>
+
+    <div class="hero-cta">
+      <a href="#projects" class="btn-primary">View My Work</a>
+      <a href="#contact" class="btn-secondary">Get In Touch</a>
+    </div>
+
+    <div class="scroll-hint">
+      <div class="scroll-line"></div>
+      <span>Scroll</span>
+    </div>
+  </section>
+
+  <!-- ===================== ABOUT ===================== -->
+  <section id="about" class="section">
+    <p class="section-label reveal">About Me</p>
+    <h2 class="section-title reveal reveal-delay-1">
+     I enjoy designing websites <br>and writing useful code.
+    </h2>
+
+    <div class="about-grid">
+      <div class="about-text reveal reveal-delay-2">
+        <p>
+          I'm a <strong>frontend developer fresher</strong> who loves building things
+          for the web. I believe great UI isn't just about looks — it's about creating
+          <strong>experiences that feel effortless</strong> for the people using them.
+        </p>
+        <p>
+         I care about design and smooth interactions that make a website feel complete.
+        </p>
+        <div class="skills-cloud">
+          <span class="skill-pill">HTML5</span>
+          <span class="skill-pill">CSS3</span>
+          <span class="skill-pill">JavaScript</span>
+          <span class="skill-pill">React</span>
+          <span class="skill-pill">Git</span>
+          <span class="skill-pill">Responsive Design</span>
+          <span class="skill-pill">UI/UX Thinking</span>
+          
+        </div>
+      </div>
+
+      <div class="about-visual reveal reveal-delay-3">
+        <div class="about-card">
+          <p class="section-label" style="margin-bottom:12px">At a glance</p>
+          <div class="stat-grid">
+            <div class="stat-item">
+              <span class="stat-num">2+</span>
+              <span class="stat-label">Projects Built</span>
+            </div>
+            <div class="stat-item">
+              <span class="stat-num">3+</span>
+              <span class="stat-label">Technologies</span>
+            </div>
+            <div class="stat-item">
+              <span class="stat-num">∞</span>
+              <span class="stat-label">Curiosity</span>
+            </div>
+            <div class="stat-item">
+              <span class="stat-num">100%</span>
+              <span class="stat-label">Commitment</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===================== PROJECTS ===================== -->
+  <section id="projects" class="section">
+    <p class="section-label reveal">Selected Work</p>
+    <h2 class="section-title reveal reveal-delay-1">Things I've built</h2>
+
+    <div class="projects-grid">
+
+      <div class="project-card reveal reveal-delay-1">
+        <span class="project-num">01</span>
+        <span class="project-tag">Web App</span>
+        <h3>Toy Store Website 🧸</h3>
+        <p> An e-commerce toy store built using React with product listing,
+        add-to-cart functionality, and responsive design.</p>
+        <div class="project-tech">
+          <span class="tech-tag">React</span>
+          <span class="tech-tag">REST API</span>
+          <span class="tech-tag">CSS Animations</span>
+        </div>
+        <div class="project-links">
+          
+        <a href="https://gunasri1925-lang.github.io/Toys-store/" target="_blank">
+            GitHub
+          </a>
+        </div>
+      </div>
+
+      
+
+      <div class="project-card reveal reveal-delay-3">
+        <span class="project-num">03</span>
+        <span class="project-tag">Portfolio</span>
+        <h3>This Portfolio</h3>
+        <p>A fully hand-coded personal portfolio with scroll animations,
+           custom cursor, responsive layout, and a dark-theme design system.</p>
+        <div class="project-tech">
+          <span class="tech-tag">HTML</span>
+          <span class="tech-tag">CSS</span>
+          <span class="tech-tag"> JavaScript</span>
+        </div>
+        <div class="project-links">
+          
+          <a href="#">
+            <svg viewBox="0 0 24 24" stroke-width="2" fill="none" stroke="currentColor">
+              <path d="M9 19c-5 1.5-5-2.5-7-3m14 6v-3.87a3.37 3.37 0 0 0-.94-2.61c3.14-.35
+              6.44-1.54 6.44-7A5.44 5.44 0 0 0 20 4.77 5.07 5.07 0 0 0 19.91 1S18.73.65
+              16 2.48a13.38 13.38 0 0 0-7 0C6.27.65 5.09 1 5.09 1A5.07 5.07 0 0 0 5
+              4.77a5.44 5.44 0 0 0-1.5 3.78c0 5.42 3.3 6.61 6.44 7A3.37 3.37 0 0 0 9 18.13V22"/>
+            </svg>
+            GitHub
+          </a>
+        </div>
+      </div>
+
+    </div>
+  </section>
+
+  <!-- ===================== CONTACT ===================== -->
+  <section id="contact" class="section">
+    <p class="section-label reveal">Get In Touch</p>
+    <h2 class="section-title reveal reveal-delay-1">
+      Let's build something<br>great together
+    </h2>
+
+    <div class="contact-inner">
+      <p class="reveal reveal-delay-2">
+        I'm actively looking for frontend opportunities. Whether you have a project,
+        a question, or just want to say hi — my inbox is always open.
+      </p>
+
+      <div class="contact-links">
+        <a href="mailto:gunasri1925@gmail.com" class="contact-link reveal reveal-delay-2">
+          <div class="contact-icon">📧</div>
+          <div class="contact-info">
+            <small>Email</small>
+            <span>gunasri1925@gmail.com</span>
+          </div>
+          <span class="contact-arrow">→</span>
+        </a>
+        <a href="https://linkedin.com/in/gunasundari" class="contact-link reveal reveal-delay-3" target="_blank">
+          <div class="contact-icon">💼</div>
+          <div class="contact-info">
+            <small>LinkedIn</small>
+            <span>https://www.linkedin.com/feed/</span>
+          </div>
+          <span class="contact-arrow">→</span>
+        </a>
+        <a href="https://github.com/gunasundari" class="contact-link reveal reveal-delay-4" target="_blank">
+          <div class="contact-icon">🐙</div>
+          <div class="contact-info">
+            <small>GitHub</small>
+            <span>https://github.com/</span>
+          </div>
+          <span class="contact-arrow">→</span>
+        </a>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===================== FOOTER ===================== -->
+  <footer>
+    <span>© 2025 Guna Sundari. Designed &amp; built with ♥</span>
+    <span>Frontend Developer · React Enthusiast</span>
+  </footer>
+
+  <script src="js/script.js"></script>
+</body>
+</html>
